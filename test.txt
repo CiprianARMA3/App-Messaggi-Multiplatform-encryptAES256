@@ -1,1 +1,154 @@
-TEST123s
+  <!-- Dotted pattern overlay -->
+  <div class="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none"></div>
+
+  <!-- Navbar -->
+  <header class="relative z-10 flex items-center justify-between px-8 py-6">
+    <div class="text-xl font-bold tracking-wide">CIPHERGRAM</div>
+    <nav class="hidden md:flex space-x-8 text-gray-300">
+      <a href="#" class="hover:text-white">Home</a>
+      <a href="#" class="hover:text-white">Safety</a>
+      <a href="#" class="hover:text-white">Team</a>
+      <a href="#" class="hover:text-white">Support</a>
+    </nav>
+    <a href="#"
+       class="ml-6 px-4 py-2 rounded-md bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition">
+       Get Started
+    </a>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-6 max-w-4xl">
+      Talk Freely , No-one is listening
+    </h1>
+    <p class="text-gray-300 max-w-2xl mb-10">
+      End-to-end encryption keeps your convesations private, we provide industry standard user privacy.Remember, not even the your goverment needs to know what you're talking about.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a href="#"
+         class="px-8 py-3 rounded-md bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition">
+         Register
+      </a>
+      <a href="/learnmore"
+         class="px-8 py-3 rounded-md border border-gray-500 hover:bg-gray-800 transition">
+         Learn More
+      </a>
+    </div>
+            <!-- <a href="#" class="px-6 py-3 rounded-full bg-gradient-to-r from-green-400 to-cyan-400 text-black font-semibold hover:opacity-90 transition">
+          Get started for free →
+        </a> -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="relative z-10 py-8 text-center text-gray-500 text-sm">
+    © 2025 ciphergram. All rights reserved.
+  </footer>  
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .bg-radial {
+      background:
+        radial-gradient(circle at bottom left, rgba(34,211,238,0.35), transparent 60%),
+        radial-gradient(circle at bottom right, rgba(59,130,246,0.35), transparent 60%),
+        #000;
+    }
+    ::-webkit-scrollbar { display: none; }
+    * { scrollbar-width: none; -ms-overflow-style: none; }
+  </style>
+</head>
+<body class="bg-radial min-h-screen flex flex-col text-white relative antialiased">
+
+  <!-- Dotted pattern overlay -->
+  <div class="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none"></div>
+
+  <!-- Navbar -->
+  <header class="relative z-10 flex items-center justify-between px-8 py-6">
+    <div class="text-xl font-bold tracking-wide">CIPHERGRAM</div>
+    <nav class="hidden md:flex space-x-8 text-gray-300">
+      <a href="#" class="hover:text-white">Home</a>
+      <a href="#" class="hover:text-white">Safety</a>
+      <a href="#" class="hover:text-white">Team</a>
+      <a href="#" class="hover:text-white">Support</a>
+    </nav>
+    <a href="#" class="ml-6 px-4 py-2 rounded-md bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition">
+       Get Started
+    </a>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
+    <div class="py-8 sm:py-6"> <!-- Reduced margin top -->
+             <p class="mx-auto mt-1 max-w-4xl text-center text-5xl font-medium tracking-tight text-gray-300 sm:text-6xl">
+          Everything you need to know before using our service
+        </p>           
+    <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="flex flex-col-reverse gap-1">
+          <dt class="text-base/7 text-gray-300">Users worldwide</dt>
+          <dd class="text-4xl font-semibold tracking-tight text-white">12</dd>
+        </div>
+        <div class="flex flex-col-reverse gap-1">
+          <dt class="text-base/7 text-gray-300">Updates</dt>
+          <dd class="text-4xl font-semibold tracking-tight text-white">1</dd>
+        </div>
+        <div class="flex flex-col-reverse gap-1">
+          <dt class="text-base/7 text-gray-300">Countries Active in</dt>
+          <dd class="text-4xl font-semibold tracking-tight text-white">40</dd>
+        </div>
+      </dl>
+<div class="flex flex-wrap gap-6 justify-center mt-16">
+  <!-- Box 1 -->
+  <div class="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+    <!-- Shiny highlight -->
+    <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
+      <div class="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
+    </div>
+
+    <!-- Box title -->
+    <h3 class="text-gray-100 text-xl font-semibold mb-4"><i class="fa-solid fa-lock">    </i> End to End encryption</h3>
+
+    <!-- Box content -->
+    <p class="text-gray-300 text-sm">
+      Your messages  are secured with modern cryptography. No one - not even us- can read them.
+    </p>
+    <p class="text-white-300 text-m" >
+            test
+    </p>
+  </div>
+
+  <!-- Box 2 -->
+  <div class="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+    <!-- Shiny highlight -->
+    <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
+      <div class="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
+    </div>
+
+    <!-- Box title -->
+    <h3 class="text-gray-100 text-xl font-semibold mb-4">         Security</h3>
+
+    <!-- Box content -->
+    <p class="text-gray-300 text-sm">
+      This is a frosted-glass style box with a shiny border and a subtle shine effect.
+    </p>
+  </div>
+</div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="relative z-10 py-8 text-center text-gray-500 text-sm">
+    © 2025 ciphergram. All rights reserved.
+  </footer>
+</body>
+</html>
