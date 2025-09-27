@@ -23,10 +23,10 @@ async function connectMongoDB() {
 async function connectMySQL() {
   try {
     const connection = await mysql.createConnection({
-      host: "localhost",
-      user: "root",         // change if needed
-      password: "password", // change if needed
-      database: "myAppMySQL"
+        host: "localhost",
+        user: "nodeuser",
+        password: "strongpassword",
+        database: "database_users"
     });
     console.log("✅ Connected to MySQL");
     return connection;
