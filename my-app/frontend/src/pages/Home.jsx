@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-function HomePage(){
+function Home(){
 
 useEffect(() => {
     document.title = "Home";
@@ -30,4 +30,4 @@ useEffect(() => {
     </>
   );
 }
-export default HomePage;
+export default Home;
