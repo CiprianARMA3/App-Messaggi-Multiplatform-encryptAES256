@@ -10,7 +10,7 @@ useEffect(() => {
   return (
     <>
   <main className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
-    <h1 className="text-4xl md:text-6xl font-extrabold mb-6 max-w-4xl">
+    <h1 className="text-4xl  md:text-6xl font-extrabold mb-6 max-w-4xl text-white [text-shadow:0_0_8px_rgba(255,255,255,0.5)]">
       Talk Freely , No-one is listening
     </h1>
     <p className="text-gray-300 max-w-2xl mb-10">

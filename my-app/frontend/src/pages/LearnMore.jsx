@@ -70,8 +70,8 @@ function LearnMore() {
           </div>
         </dl>
 
-        <div className="flex flex-wrap gap-6 justify-center mt-16">
-          <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+        <div className="flex flex-wrap gap-6 justify-center mt-16 ">
+                    <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden transition-transform-shadow duration-500 ease-in-out hover:scale-y-100 hover:translate-y-[-13px]   hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
               <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
             </div>
@@ -90,7 +90,7 @@ function LearnMore() {
             <p className="text-gray-300 text-m"> <br></br>That's how we take care of your information.</p>
           </div>
 
-          <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+                    <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden transition-transform-shadow duration-500 ease-in-out hover:scale-y-100 hover:translate-y-[-13px]   hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
               <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
             </div>
@@ -99,14 +99,14 @@ function LearnMore() {
 
             <p className="text-gray-300 text-m">
               
-              Build with modern languages such as React and Electron which grant a pleasant experience for the users.
+              Built with modern languages such as React and Electron which grant a pleasant experience for the users.
             </p>
                       <img 
-            src="/datacenter.png" 
-            className="w-full h-full object-cover blur-[6px] scale-x-125 scale-y-80 " />  
+            src="/react.png" 
+            className=" w-full h-full object-cover blur-[6px] scale-x-125 scale-y-80 select-none pointer-events-none " />  
           </div>
 
-          <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+                    <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden transition-transform-shadow duration-500 ease-in-out hover:scale-y-100 hover:translate-y-[-13px]   hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
               <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
             </div>
@@ -118,9 +118,9 @@ function LearnMore() {
             </p>
           <img 
             src="/globe.png" 
-            className="w-full h-full object-cover blur-[2px] scale-x-125 scale-y-80 " />          
+            className="w-full h-full object-cover blur-[2px] scale-x-125 scale-y-80 select-none pointer-events-none" />          
           </div>
-                    <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+                    <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden transition-transform-shadow duration-500 ease-in-out hover:scale-y-100 hover:translate-y-[-13px]   hover:shadow-[0_0_15px_rgba(255,255,255,0.8)]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
               <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
             </div>
@@ -133,9 +133,13 @@ function LearnMore() {
           {/* <img 
             src="" 
             className="w-full h-full object-cover blur-[2px] scale-x-125 scale-y-80 " />           */}
+            
           </div>
         </div>
       </div>
+    <h1 className="text-white text-2xl [text-shadow:0_0_8px_rgba(255,255,255,0.5)] mt-[100px]">
+      More in the safety page
+    </h1>
     </main>
   );
 }
