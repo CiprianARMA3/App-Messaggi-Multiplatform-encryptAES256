@@ -77,17 +77,17 @@ function LearnMore() {
             </div>
 
             <h3 className="text-gray-100 text-xl font-semibold mb-4">
-              <i className="fa-solid fa-lock" style={{ opacity: 0.7}}></i> End to End encryption
+              <i className="fa-solid fa-lock mr-[10px]" style={{ opacity: 0.7}}></i> End to End encryption
             </h3>
 
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-300 text-m">
               Your messages are secured with modern cryptography. No one — not even us — can read them.<br></br> <br></br>
             </p> 
             <span className="inline-block w-64 text-center">
                 <span ref={textRef} className="text-gray text-base"></span>
                 <span ref={cursorRef} className="cursor"> |  </span>
             </span>
-            <p className="text-gray-300 text-sm"> <br></br>That's how we take care of your information.</p>
+            <p className="text-gray-300 text-m"> <br></br>That's how we take care of your information.</p>
           </div>
 
           <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
@@ -95,11 +95,44 @@ function LearnMore() {
               <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
             </div>
 
-            <h3 className="text-gray-100 text-xl font-semibold mb-4">Security</h3>
+            <h3 className="text-gray-100 text-xl font-semibold mb-4"> <i class="fa-solid fa-bolt mr-[10px]" style={{ opacity: 0.7}}></i>Reliable</h3>
 
-            <p className="text-gray-300 text-sm">
-              This is a frosted-glass style box with a shiny border and a subtle shine effect.
+            <p className="text-gray-300 text-m">
+              
+              Build with modern languages such as React and Electron which grant a pleasant experience for the users.
             </p>
+                      <img 
+            src="/datacenter.png" 
+            className="w-full h-full object-cover blur-[6px] scale-x-125 scale-y-80 " />  
+          </div>
+
+          <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+              <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
+            </div>
+
+            <h3 className="text-gray-100 text-xl font-semibold mb-4"> <i class="fa-solid fa-globe mr-[10px]" style={{ opacity: 0.7}}></i>Connect Anywhere</h3>
+
+            <p className="text-gray-300 text-m">
+              Works across devices, keeping your chats synced without compromising security.
+            </p>
+          <img 
+            src="/globe.png" 
+            className="w-full h-full object-cover blur-[2px] scale-x-125 scale-y-80 " />          
+          </div>
+                    <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+              <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-white/10 blur-xl transform rotate-12"></div>
+            </div>
+
+            <h3 className="text-gray-100 text-xl font-semibold mb-4"> <i class="fa-solid fa-user-shield mr-[10px]" style={{ opacity: 0.7}}></i>Privacy First</h3>
+
+            <p className="text-gray-300 text-m">
+              We don’t track you, sell data, or store keys. Your conversations belong only to you.
+            </p>
+          {/* <img 
+            src="" 
+            className="w-full h-full object-cover blur-[2px] scale-x-125 scale-y-80 " />           */}
           </div>
         </div>
       </div>
