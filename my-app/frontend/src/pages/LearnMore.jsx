@@ -83,10 +83,11 @@ function LearnMore() {
             <p className="text-gray-300 text-sm">
               Your messages are secured with modern cryptography. No one — not even us — can read them.<br></br> <br></br>
             </p> 
-
-            <span ref={textRef} className="text-gray text-base"></span>
-            <span ref={cursorRef} className="cursor">|</span>
-
+            <span className="inline-block w-64 text-center">
+                <span ref={textRef} className="text-gray text-base"></span>
+                <span ref={cursorRef} className="cursor"> |  </span>
+            </span>
+            <p className="text-gray-300 text-sm"> <br></br>That's how we take care of your information.</p>
           </div>
 
           <div className="relative w-80 p-6 rounded-2xl bg-white/10 backdrop-blur-3xl border border-white/20 shadow-lg overflow-hidden">
