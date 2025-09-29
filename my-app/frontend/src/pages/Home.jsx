@@ -26,6 +26,16 @@ useEffect(() => {
          Learn More
       </Link>
     </div>
+
+
+    <div className="relative inline-block">
+  <div className="absolute inset-0 -m-1 rounded-lg bg-gradient-to-r from-blue-500 via-red-500 to-green-500 blur-xl"></div>
+
+  <button 
+    className="relative px-6 py-3 rounded-lg bg-white text-black font-semibold hover:bg-gray-800 transition" >
+    Click Me
+  </button>
+</div>
   </main>
     </>
   );
