@@ -50,7 +50,7 @@ function LearnMore() {
   }, []);
 
   return (
-    <main className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
+    <main className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6 mt-20">
       <div className="py-8 sm:py-6">
         <p className="mx-auto mt-1 max-w-4xl text-center text-5xl font-medium tracking-tight text-gray-300 sm:text-6xl">
           Everything you need to know before using our service
