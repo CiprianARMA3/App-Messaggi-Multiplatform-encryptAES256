@@ -10,9 +10,15 @@ useEffect(() => {
   return (
     <>
   <main className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
-    <h1 className="text-4xl  md:text-6xl font-extrabold mb-6 max-w-4xl text-white [text-shadow:0_0_8px_rgba(255,255,255,0.5)]">
-      Talk Freely , No-one is listening
-    </h1>
+<div className="w-full text-center my-8">
+  <div className="h-px w-full bg-gradient-to-r from-transparent via-white/40 to-transparent mb-6"></div>
+
+  <h1 className="text-4xl md:text-6xl font-extrabold mb-6 text-white [text-shadow:0_0_8px_rgba(255,255,255,0.5)]">
+    Talk Freely, No-one is listening
+  </h1>
+
+  <div className="h-px w-full bg-gradient-to-r from-transparent via-white/40 to-transparent mt-6"></div>
+</div>
     <p className="text-gray-300 max-w-2xl mb-10">
       End-to-end encryption keeps your convesations private, we provide industry standard user privacy.Remember, not even the your goverment needs to know what you're talking about.
     </p>
