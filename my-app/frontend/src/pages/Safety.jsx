@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function Safety(){
     return(
-        <p>safety</p>
+        <p className="mt-20">safety</p>
     );
 }
 export default Safety;
