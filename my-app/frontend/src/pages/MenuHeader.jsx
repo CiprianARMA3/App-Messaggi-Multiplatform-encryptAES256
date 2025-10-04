@@ -15,7 +15,14 @@ function MenuHeader(){
     </nav>
         <Link 
         to="/login" 
-  className="px-4 py-2 relative inline-flex items-center justify-center px-6 py-3 rounded-full bg-white text-black font-bold shadow-[0_0_80px_-1px_rgba(168,85,247,1)] hover:shadow-[0_0_80px_-1px_rgba(59,130,246,1)] transition">
+  className="relative px-8 py-3 rounded-3xl border-[2px] border-gray-600 
+             bg-black text-white font-bold
+             before:absolute before:inset-0 before:rounded-3xl 
+             before:p-[2px] before:bg-gradient-to-r before:from-purple-500 before:to-blue-500 
+             before:-z-10 
+             shadow-[inset_0_0_20px_rgba(255,255,255,0.2)] 
+             hover:shadow-[inset_0_0_30px_rgba(255,255,255,0.3)] 
+             transition">
         
         Get Started
         </Link>
